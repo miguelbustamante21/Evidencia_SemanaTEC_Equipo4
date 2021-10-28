@@ -7,11 +7,19 @@ Exercises
 3. How would you move the food?
 4. Change the snake to respond to arrow keys.
 
-"""
+Team members
 
-from turtle import *
-from random import randrange
-from freegames import square, vector
+Miguel Angel Bustamante Pérez A01781583
+Espacio 1
+Espacio 2
+
+"""
+#Libraries 
+
+from turtle import * #brings objects from the module. turtle is a python feature like a drawing board 
+from random import randrange #randrange is a function that returns a random integer number within the given range 
+from freegames import square, vector 
+
 
 food = vector(0, 0)
 snake = [vector(10, 0)]

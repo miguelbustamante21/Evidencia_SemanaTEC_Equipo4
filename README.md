@@ -4,6 +4,6 @@ This repository will include the final project of the week
 - Miguel Angel Bustamante Perez A01781583
 - Nombre: 
 - Nombre: 
-- Los juegos a editar son:
+-Los juegos a editar son:
 - - cannon.py
 - - snake.py
