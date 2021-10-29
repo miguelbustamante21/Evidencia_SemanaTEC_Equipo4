@@ -23,10 +23,10 @@ targets = []
 def tap(x, y):
     "Respond to screen tap."
     if not inside(ball):
-        ball.x = -199
-        ball.y = -199
-        speed.x = (x + 500) / 25
-        speed.y = (y + 800) / 25
+        ball.x = -189 #miguel
+        ball.y = -179 #miguel
+        speed.x = (x + 500) / 25 #miguel
+        speed.y = (y + 800) / 25 #miguel
 
 def inside(xy):
     "Return True if xy within screen."
