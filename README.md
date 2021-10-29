@@ -2,9 +2,9 @@
 This repository will include the final project of the week.
 - Integrantes: 
   - Miguel Angel Bustamante Perez A01781583
-  - Luis Vasquez Ortega a01028111  
-	
-  - Nombre: Manuel Alonso Sánchez A01368013 
+  - Luis Vasquez Ortega a0102	
+  - Manuel Alonso Sánchez A01368013
+ 
 - Los juegos a editar son:
   - cannon.py
   - snake.py
@@ -16,6 +16,8 @@ Para el juego de la serpiente:
 - Hacer a la serpiente mas rapida o lenta. (Luis)
 - Que la serpiente se mueva por los bordes. 
 - Como moverias la comida. (Luis)
+- Agregar un aviso al terminar el juego (Alonso)
+- Cambiar el color de la serpiente (Alonso)
 - Cambia la serpiente para que responda a las teclas de flecha. 
 
 Para el juego del tiro parabolico: 
