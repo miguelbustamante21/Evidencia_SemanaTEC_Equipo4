@@ -10,7 +10,7 @@ Exercises
 Team members
 
 Miguel Angel Bustamante Pérez A01781583
-Espacio 1
+Manuel Alonso Sánchez González A01368013
 Espacio 2
 
 """
@@ -19,7 +19,6 @@ Espacio 2
 from turtle import * #brings objects from the module. turtle is a python feature like a drawing board 
 from random import randrange #randrange is a function that returns a random integer number within the given range 
 from freegames import square, vector 
-
 
 food = vector(0, 0)
 snake = [vector(10, 0)]
@@ -56,9 +55,9 @@ def move():
     clear()
 
     for body in snake:
-        square(body.x, body.y, 9, 'black')
+        square(body.x, body.y, 9, 'blue')
 
-    square(food.x, food.y, 9, 'green')
+    square(food.x, food.y, 9, 'yellow')
     update()
     ontimer(move, 100)
 
