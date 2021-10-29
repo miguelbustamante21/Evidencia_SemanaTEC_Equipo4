@@ -44,9 +44,9 @@ def draw():
     update()
 
 def move():
-    "Move ball and targets."
+    "Move ball an targets."
     # Generate a new target at random times
-    if randrange(40) == 0:
+    if randrange(30) == 0:
         y = randrange(-150, 150)
         target = vector(200, y)
         targets.append(target)
