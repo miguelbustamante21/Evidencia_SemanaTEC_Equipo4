@@ -27,7 +27,6 @@ aim = vector(0, -10)
 def change(x, y):
     "Change snake direction."
     aim.x = x
-    aim.y = y
 
 def inside(head):
     "Return True if head inside boundaries."
@@ -49,8 +48,10 @@ def move():
         print('Snake:', len(snake))
         food.x = randrange(-15, 15) * 10
         food.y = randrange(-15, 15) * 10
+        print("Level Up")
     else:
         snake.pop(0)
+        print("End game")
 
     clear()
 
@@ -69,5 +70,6 @@ onkey(lambda: change(10, 0), 'Right')
 onkey(lambda: change(-10, 0), 'Left')
 onkey(lambda: change(0, 10), 'Up')
 onkey(lambda: change(0, -10), 'Down')
+
 move()
 done()
