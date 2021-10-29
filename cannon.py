@@ -7,6 +7,9 @@ Exercises
 3. Apply gravity to the targets.
 4. Change the speed of the ball.
 
+Integrantes 
+Miguel Bustamante A01781583
+
 """
 
 from random import randrange
