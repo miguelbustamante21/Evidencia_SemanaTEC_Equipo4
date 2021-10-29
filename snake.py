@@ -21,7 +21,7 @@ from random import randrange #randrange is a function that returns a random inte
 from freegames import square, vector 
 
 
-food = vector(0, 0)
+food = vector(15, 4) #miguel, cambiar la pos inicial
 snake = [vector(10, 0)]
 aim = vector(0, -10)
 
