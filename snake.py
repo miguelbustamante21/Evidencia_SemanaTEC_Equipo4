@@ -26,7 +26,7 @@ snake = [vector(10, 0)]
 aim = vector(0, -10)
 
 def change(x, y):
-    "Change snake direction."
+    "Change snake direction." #Alonso
     aim.x = x
     aim.y = y
 
@@ -50,7 +50,9 @@ def move():
         print('Snake:', len(snake))
         food.x = randrange(-15, 15) * 10
         food.y = randrange(-15, 15) * 10
+        print("Level Up") #Alonso
     else:
+        print("Endgame") #Alonso
         snake.pop(0)
 
     clear()
