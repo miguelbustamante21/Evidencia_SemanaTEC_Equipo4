@@ -39,7 +39,7 @@ def draw():
 
     for target in targets:
         goto(target.x, target.y)
-        dot(20, 'blue')
+        dot(20, 'blue')#Alonso
 
     if inside(ball):
         goto(ball.x, ball.y)
@@ -50,7 +50,7 @@ def draw():
 def move():
     "Move ball and targets."
     # Generate a new target at random times
-    if randrange(40) == 0:
+    if randrange(30) == 0: #Alonso 
         y = randrange(-150, 150)
         target = vector(200, y)
         targets.append(target)
@@ -61,7 +61,7 @@ def move():
 
     # Move the cannon shot
     if inside(ball):
-        speed.y -= 0.50 #Luis#
+        speed.y -= 0.50 #Luis
         ball.move(speed)
 
     # Make a copy of the existing target list before redrawing
