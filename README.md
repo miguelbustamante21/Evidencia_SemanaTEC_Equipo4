@@ -24,4 +24,4 @@ Para el juego del tiro parabolico:
 - Alonso Aumentó la probabilidad de que aparecieran objettivos aleatorios.
 - Luis editó la velocidad inicial del proyectil 
 - Luis modificó la velocidad del vector
- 
+
