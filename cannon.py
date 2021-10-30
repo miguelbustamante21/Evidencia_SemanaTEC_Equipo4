@@ -9,7 +9,8 @@ Exercises
 
 Integrantes 
 Miguel Bustamante A01781583
-
+Luis Vasquez A01028111
+Alonso Sanchez A01368013
 """
 
 from random import randrange
@@ -17,7 +18,7 @@ from turtle import *
 from freegames import vector
 
 ball = vector(-200, -200)
-speed = vector(0, 0)
+speed = vector(10, 10) #Luis#
 targets = []
 
 def tap(x, y):
@@ -60,7 +61,7 @@ def move():
 
     # Move the cannon shot
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 0.50 #Luis#
         ball.move(speed)
 
     # Make a copy of the existing target list before redrawing
