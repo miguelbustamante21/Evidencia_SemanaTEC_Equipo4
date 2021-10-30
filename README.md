@@ -14,10 +14,14 @@ Para el juego de la serpiente:
 - Miguel cambió el color de la serpiente y el color de la comida. 
 - Alonso solucionó problemas con respecto al cambio de dirección.
 - Alonso agregó elementos visuales.
+- Luis cambio la dirección inicial de la serpiente
+- Luis cambio el color de cuando la serpiente choca
 
 Para el juego del tiro parabolico: 
 - Miguel cambio la posicion del proyectil.
 - Miguel cambio la velocidad de la bola.
 - Alonso modificó la propiedad de los objetivos para aumentar el contraste con respecto a los tiros.
-- Aumentó la probabilidad de que aparecieran objettivos aleatorios.
+- Alonso Aumentó la probabilidad de que aparecieran objettivos aleatorios.
+- Luis editó la velocidad inicial del proyectil 
+- Luis modificó la velocidad del vector
  
